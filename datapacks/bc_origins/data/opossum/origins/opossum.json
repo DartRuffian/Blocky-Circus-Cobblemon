@@ -6,6 +6,7 @@
     "impact": 1,
     "powers":
     [
-        "opossum:antivenom"
+        "opossum:antivenom",
+        "opossum:fast_swimming"
     ]
 }
