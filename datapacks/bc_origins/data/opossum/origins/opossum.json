@@ -4,5 +4,8 @@
     "icon": "minecraft:gray_wool",
     "order": 7,
     "impact": 1,
-    "powers": []
+    "powers":
+    [
+        "opossum:antivenom"
+    ]
 }
