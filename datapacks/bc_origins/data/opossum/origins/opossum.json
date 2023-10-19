@@ -9,6 +9,7 @@
         "opossum:antivenom",
         "opossum:fast_swimming",
         "opossum:increased_jump",
-        "common:size_half_block"
+        "common:size_half_block",
+        "opossum:frost_bites"
     ]
 }
