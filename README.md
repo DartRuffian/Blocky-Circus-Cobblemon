@@ -85,7 +85,38 @@ A large mammal known for their poor eating habits and sneakiness. Raccoons are q
     - Torch, lava, magma block, etc.
 - Fragile
   - Only has seven hearts.
+ 
+## Classes
+Classes are a secondary origin in addition to your main origin. Classes however, are much smaller and basic. The classes included here only include extra starting items.
+
+### Trainer
+Starts with the basic trainer items, essentially the "Nitwit"
+- 8x Pokéballs
+- 2x Great balls
+- 3x Potions
+- 32x Bread
+- Running Shoes
+    - Unbreakable Leather Boots with a 50% movement speed bonus
+
+### Berry Farmer
+- Basic Trainer Items
+- Bundle Containing:
+    - 3x Oran Berries
+    - 3x Leppa Berries
+    - 3x Pecha Berries
+    - 8x Growth Mulch
+
+### Nurse
+- Basic Trainer Items
+- 8x Potion
+    - In addition to the base three 
+- 1x Super Potion
+- 5x Full Heals
+- 3x Heal Balls
+
 
 ## Requirements
 - [Origins](https://modrinth.com/mod/origins)
 - [Extra Origins](https://modrinth.com/mod/extra-origins)
+- [Cobblemon](https://modrinth.com/mod/cobblemon)
+  - Only required for the Classes
