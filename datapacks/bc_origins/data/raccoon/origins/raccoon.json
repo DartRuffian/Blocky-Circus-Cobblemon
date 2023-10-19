@@ -9,6 +9,7 @@
         "raccoon:steal_item",
         "raccoon:activate_invis",
         "raccoon:partial_invis",
+        "common:modify_bad_food",
         "common:mine_15",
         "common:climbing",
         "common:speed_004",

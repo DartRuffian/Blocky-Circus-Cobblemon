@@ -1,0 +1,24 @@
+{
+    "name": "Trash Eater",
+    "description": "You are immune to all effects from poisonous food, and can get more nutrients from it.",
+    "type": "origins:modify_food",
+    "item_condition":
+    {
+        "type": "origins:ingredient",
+        "ingredient":
+        {
+            "tag": "common:bad_food"
+        }
+    },
+    "food_modifier":
+    {
+        "operation": "addition",
+        "value": 3
+    },
+    "saturation_modifier":
+    {
+        "operation": "addition",
+        "value": 0.5
+    },
+    "prevent_effects": true
+}
