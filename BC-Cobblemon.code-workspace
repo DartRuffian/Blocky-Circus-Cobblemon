@@ -3,6 +3,9 @@
     [
         {
             "path": "./"
+        },
+        {
+            "path": "../../../Users/skull/AppData/Roaming/.minecraft/profiles/blocky_circus_v2/saves/Origin Testing/datapacks/blocky-circus-redux"
         }
     ],
     "settings":
