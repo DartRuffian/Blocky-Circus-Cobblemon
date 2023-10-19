@@ -4,5 +4,8 @@
     "icon": "minecraft:brown_dye",
     "order": 7,
     "impact": 1,
-    "powers": []
+    "powers":
+    [
+        "common:size_08"
+    ]
 }

@@ -1,0 +1,10 @@
+{
+    "name": "Small Stature",
+    "description": "You are slightly smaller than others.\n(Requires Extra Origins)",
+    "type": "extraorigins:modify_size",
+    "scale_types":
+    [
+        "extraorigins:modify_size"
+    ],
+    "scale": 0.8
+}
