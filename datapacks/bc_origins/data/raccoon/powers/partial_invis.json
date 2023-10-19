@@ -1,0 +1,25 @@
+{
+    "name": "Hidden in Plain Sight",
+    "description": "While sneaking, you can become partially invisible. You are still targeted by hostile mobs and cannot go invisible with less than 3 hearts.",
+    "type": "origins:model_color",
+    "alpha": 0.3,
+    "condition":
+    {
+        "type": "origins:and",
+        "conditions":
+        [
+            {
+                "type": "origins:power_active",
+                "power": "raccoon:activate_invis"
+            },
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:health",
+                "comparison": ">",
+                "compare_to": 6
+            }
+        ]
+    }
+}
