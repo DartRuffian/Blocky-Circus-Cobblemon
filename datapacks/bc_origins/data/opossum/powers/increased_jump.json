@@ -1,0 +1,10 @@
+{
+    "name": "Jumpies",
+    "description": "You are able to jump two blocks high.",
+    "type": "origins:modify_jump",
+    "modifier":
+    {
+        "operation": "addition",
+        "value": 0.2
+    }
+}
