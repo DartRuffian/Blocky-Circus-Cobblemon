@@ -1,4 +1,6 @@
 {
+    "name": "Starting Gear",
+    "description": "You start with 8 Pokéballs, 8 Great Balls, 32 pieces of bread, and Running Shoes",
     "type": "origins:starting_equipment",
     "stacks":
     [

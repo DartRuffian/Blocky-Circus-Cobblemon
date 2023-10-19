@@ -1,4 +1,6 @@
 {
+    "name": "Berry Bundle",
+    "description": "You start with a bundle of various healing berries.",
     "type": "origins:starting_equipment",
     "stacks":
     [
