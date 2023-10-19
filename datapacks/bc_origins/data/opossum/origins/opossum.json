@@ -6,9 +6,11 @@
     "impact": 1,
     "powers":
     [
+        "common:modify_bad_food",
         "opossum:antivenom",
         "opossum:fast_swimming",
         "opossum:increased_jump",
+        "common:climbing",
         "opossum:sharp_claws",
         "common:size_05",
         "opossum:frost_bites"
