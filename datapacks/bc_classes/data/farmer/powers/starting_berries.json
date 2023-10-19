@@ -1,6 +1,6 @@
 {
     "name": "Berry Bundle",
-    "description": "You start with a bundle of various healing berries.",
+    "description": "You start with a bundle of various healing berries and mulch.",
     "badges":
     [
         {
@@ -14,7 +14,7 @@
     [
         {
             "item": "minecraft:bundle",
-            "tag": "{Items: [{id: \"cobblemon:persim_berry\", Count: 3b}, {id: \"cobblemon:aspear_berry\", Count: 3b}, {id: \"cobblemon:rawst_berry\", Count: 3b}, {id: \"cobblemon:pecha_berry\", Count: 3b}, {id: \"cobblemon:chesto_berry\", Count: 3b}, {id: \"cobblemon:cheri_berry\", Count: 3b}, {id: \"cobblemon:leppa_berry\", Count: 3b}, {id: \"cobblemon:oran_berry\", Count: 3b}]}"
+            "tag": "{Items: [{id: \"cobblemon:oran_berry\", Count: 3b}, {id: \"cobblemon:leppa_berry\", Count: 3b}, {id: \"cobblemon:pecha_berry\", Count: 3b}, {id: \"cobblemon:growth_mulch\", Count: 8b}]}"
         }
     ]
 }
