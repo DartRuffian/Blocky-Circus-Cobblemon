@@ -4,6 +4,7 @@
     "allow_random": false,
     "origins":
     [
-        "trainer:trainer"
+        "trainer:trainer",
+        "farmer:berry_farmer"
     ]
 }
