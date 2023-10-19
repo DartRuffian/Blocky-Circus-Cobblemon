@@ -12,7 +12,9 @@
         "opossum:increased_jump",
         "common:climbing",
         "opossum:sharp_claws",
+        "origins:cat_vision",
         "common:size_05",
-        "opossum:frost_bites"
+        "opossum:frost_bites",
+        "origins:fragile"
     ]
 }
