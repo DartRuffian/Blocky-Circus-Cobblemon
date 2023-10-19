@@ -21,6 +21,10 @@
             "amount": 8
         },
         {
+            "item": "cobblemon:potion",
+            "amount": 3
+        },
+        {
             "item": "minecraft:bread",
             "amount": 32
         },
