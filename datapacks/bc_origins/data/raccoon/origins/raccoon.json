@@ -6,6 +6,7 @@
     "impact": 1,
     "powers":
     [
-        "common:size_08"
+        "common:size_08",
+        "raccoon:prevent_sleep"
     ]
 }
