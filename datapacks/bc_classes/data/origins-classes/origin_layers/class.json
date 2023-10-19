@@ -4,6 +4,6 @@
     "allow_random": false,
     "origins":
     [
-        "origins-classes:nitwit"
+        "trainer:trainer"
     ]
 }
