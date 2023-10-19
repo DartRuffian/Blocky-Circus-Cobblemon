@@ -48,7 +48,7 @@
                                 "type": "origins:ingredient",
                                 "ingredient":
                                 {
-                                    "tag": "utils:heat_items"
+                                    "tag": "common:heat_items"
                                 }
                             }
                         },
@@ -60,7 +60,7 @@
                                 "type": "origins:ingredient",
                                 "ingredient":
                                 {
-                                    "tag": "utils:heat_items"
+                                    "tag": "common:heat_items"
                                 }
                             }
                         },
@@ -69,7 +69,7 @@
                             "block_condition":
                             {
                                 "type": "origins:in_tag",
-                                "tag": "utils:heat_blocks"
+                                "tag": "common:heat_blocks"
                             },
                             "radius": 4
                         }
@@ -108,7 +108,7 @@
                                 "type": "origins:ingredient",
                                 "ingredient":
                                 {
-                                    "tag": "utils:heat_items"
+                                    "tag": "common:heat_items"
                                 }
                             }
                         },
@@ -120,7 +120,7 @@
                                 "type": "origins:ingredient",
                                 "ingredient":
                                 {
-                                    "tag": "utils:heat_items"
+                                    "tag": "common:heat_items"
                                 }
                             }
                         },
@@ -129,7 +129,7 @@
                             "block_condition":
                             {
                                 "type": "origins:in_tag",
-                                "tag": "utils:heat_blocks"
+                                "tag": "common:heat_blocks"
                             },
                             "radius": 4
                         }
