@@ -1,6 +1,14 @@
 {
     "name": "Berry Bundle",
     "description": "You start with a bundle of various healing berries.",
+    "badges":
+    [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/item/bundle.png",
+            "text": ""
+        }
+    ],
     "type": "origins:starting_equipment",
     "stacks":
     [

@@ -1,6 +1,14 @@
 {
     "name": "Starting Gear",
     "description": "You start with 8 Pokéballs, 8 Great Balls, 32 pieces of bread, and Running Shoes",
+    "badges":
+    [
+        {
+            "type": "origins:tooltip",
+            "sprite": "cobblemon:textures/item/poke_balls/poke_ball.png",
+            "text": ""
+        }
+    ],
     "type": "origins:starting_equipment",
     "stacks":
     [
