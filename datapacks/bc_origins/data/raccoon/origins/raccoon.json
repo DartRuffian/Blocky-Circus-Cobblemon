@@ -6,6 +6,7 @@
     "impact": 1,
     "powers":
     [
+        "raccoon:steal_item",
         "raccoon:activate_invis",
         "raccoon:partial_invis",
         "common:mine_15",
