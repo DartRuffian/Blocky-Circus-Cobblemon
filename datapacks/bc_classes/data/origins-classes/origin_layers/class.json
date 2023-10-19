@@ -1,0 +1,11 @@
+{
+    "replace": true,
+    "order": 10,
+    "allow_random": false,
+    "origins":
+    [
+        "trainer:trainer",
+        "farmer:berry_farmer",
+        "nurse:nurse"
+    ]
+}
