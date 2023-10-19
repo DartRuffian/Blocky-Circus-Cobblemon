@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values":
+    [
+        "minecraft:pufferfish",
+        "minecraft:dried_kelp",
+        "minecraft:rotten_flesh",
+        "minecraft:spider_eye",
+        "minecraft:poisonous_potato",
+        "minecraft:chicken"
+    ]
+}

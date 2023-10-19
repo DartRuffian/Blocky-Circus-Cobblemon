@@ -1,0 +1,22 @@
+{
+    "name": "Raccoon",
+    "description": "A large mammal known for their poor eating habits and sneakiness. Raccoons are quick and are able to hide while sneaking.",
+    "icon": "minecraft:brown_dye",
+    "order": 7,
+    "impact": 1,
+    "powers":
+    [
+        "raccoon:steal_item",
+        "raccoon:activate_invis",
+        "raccoon:partial_invis",
+        "common:modify_bad_food",
+        "common:climbing",
+        "common:mine_15",
+        "common:speed_004",
+        "origins:cat_vision",
+        "common:size_08",
+        "raccoon:exhaustion",
+        "raccoon:prevent_sleep",
+        "origins:fragile"
+    ]
+}

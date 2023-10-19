@@ -1,0 +1,64 @@
+{
+    "name": "Snatch",
+	"description": "When punching a player or mob with your paw, you have a small chance of them dropping their currently held item on the ground.",
+    "type": "origins:target_action_on_hit",
+    "cooldown": 600,
+    "entity_action":
+    {
+        "type": "origins:chance",
+        "chance": 0.25,
+        "action":
+        {
+            "type": "origins:and",
+            "actions":
+            [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if data entity @s SelectedItem run summon item ~ ~1 ~ {Item:{id:\"minecraft:gray_stained_glass_pane\",Count:1b},PickupDelay:40s,Tags:[\"dropped\"],Motion:[-0.08,0.1,0.024]}",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "data modify entity @e[type=item,tag=dropped,limit=1] Item set from entity @s SelectedItem",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @e[type=item] remove dropped",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if data entity @s SelectedItem run playsound entity.item.pickup player @a[distance=..10] ~ ~1 ~ 1 0",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/item replace entity @s weapon.mainhand with air",
+                    "permission_level": 4
+                }
+            ]
+        }
+    },
+    "condition":
+    {
+        "inverted": false,
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition":
+        {
+            "inverted": false,
+            "type": "origins:ingredient",
+            "ingredient":
+            {
+                "item": "air"
+            }
+        }
+    },
+    "hud_render":
+    {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 1
+    }
+}

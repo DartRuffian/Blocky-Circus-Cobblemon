@@ -1,0 +1,68 @@
+{
+    "name": "Hidden in Plain Sight +",
+    "description": "Using the primary key while sneaking, you can go completely invisible for a limited time. Getting hit decreases this time.",
+    "type": "origins:multiple",
+    "resource":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 100,
+        "hud_render":
+        {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 7,
+            "condition":
+            {
+                "type": "origins:power_active",
+                "power": "raccoon:activate_invis"
+            }
+        }
+    },
+    "invis":
+    {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions":
+            [
+                {
+                    "type": "origins:power_active",
+                    "power": "raccoon:activate_invis"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_resource",
+                    "comparison": ">",
+                    "compare_to": 50
+                }
+            ]
+        }
+    },
+    "is_hit":
+    {
+        "type": "origins:self_action_when_hit",
+        "entity_action":
+        {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "operation": "add",
+            "change": -20
+        },
+        "cooldown": 40
+    },
+    "increase":
+    {
+        "type": "origins:action_over_time",
+        "entity_action":
+        {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "change": 1
+        },
+        "interval": 10
+    }
+}
