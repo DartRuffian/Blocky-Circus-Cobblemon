@@ -22,6 +22,7 @@ Blocky Circus - Cobblemon is a collection of custom datapacks for our private Co
 ## Origins
 ### Raccoon
 A large mammal known for their poor eating habits and sneakiness. Raccoons are quick and are able to hide while sneaking.
+
 🟢 Pros
 - Snatch
   - Very low chance to make a mob or player drop their current item when punching them.
@@ -39,10 +40,12 @@ A large mammal known for their poor eating habits and sneakiness. Raccoons are q
 - Speedy
   - Can run faster than normal.
 - Nocturnal
+
 🟡 Neutral
 - Small Size
   - 0.8 blocks talls
   - Does not affect movement speed, jump height, etc., only physical/hitbox size.
+
 🔴 Cons
 - Fast Metabolism
   - Exhausts hunger more quickly.
@@ -54,6 +57,7 @@ A large mammal known for their poor eating habits and sneakiness. Raccoons are q
 
 ### Opossum
 A large mammal known for their poor eating habits and sneakiness. Raccoons are quick and are able to hide while sneaking.
+
 🟢 Pros
 - Trash Eater
   - Same as Raccoon.
@@ -68,10 +72,12 @@ A large mammal known for their poor eating habits and sneakiness. Raccoons are q
 - Sharp Claws
   - Punching with a fist deals more damage.
 - Nocturnal
+
 🟡 Neutral
 - Small Size
   - 0.5 blocks tall.
   - Does not affect movement speed, jump height, etc., only physical/hitbox size.
+
 🔴 Cons
 - Frost Bites
   - Takes damage and shakes in cold biomes.
