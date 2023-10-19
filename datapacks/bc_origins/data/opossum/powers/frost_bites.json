@@ -2,16 +2,17 @@
     "name": "The Frost Bites",
     "description": "Your small body can't handle the cold, and will take damage when in cold biomes and not next to a heat source.",
     "type": "origins:multiple",
+    "badges":
+    [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/item/powder_snow_bucket.png",
+            "text": "Keep out of the cold!"
+        }
+    ],
     "damage":
     {
         "type": "origins:damage_over_time",
-        "badges":
-        [
-            {
-                "sprite": "minecraft:textures/item/powder_snow_bucket.png",
-                "text": "Keep out of the cold!"
-            }
-        ],
         "interval": 20,
         "onset_delay": 1,
         "damage": 1,
