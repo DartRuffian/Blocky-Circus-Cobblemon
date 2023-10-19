@@ -1,0 +1,10 @@
+{
+    "name": "Fast Metabolism",
+    "description": "Due to your small body and stomach, you have a faster metabolism compared to other species.",
+    "type": "origins:modify_exhaustion",
+    "modifier":
+    {
+        "operation": "addition",
+        "value": 0.05
+    }
+}
