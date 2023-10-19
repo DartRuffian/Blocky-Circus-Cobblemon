@@ -16,7 +16,7 @@
             "condition":
             {
                 "type": "origins:power_active",
-                "power": "raccoon:sneaky"
+                "power": "raccoon:activate_invis"
             }
         }
     },
@@ -31,7 +31,7 @@
             [
                 {
                     "type": "origins:power_active",
-                    "power": "raccoon:sneaky"
+                    "power": "raccoon:activate_invis"
                 },
                 {
                     "type": "origins:resource",
