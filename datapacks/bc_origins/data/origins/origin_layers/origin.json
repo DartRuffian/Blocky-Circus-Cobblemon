@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "order": 0,
+    "allow_random": true,
+    "origins":
+    [
+        "opossum:opossum"
+    ]
+}
