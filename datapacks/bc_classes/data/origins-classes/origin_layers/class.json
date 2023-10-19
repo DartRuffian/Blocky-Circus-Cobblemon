@@ -5,6 +5,7 @@
     "origins":
     [
         "trainer:trainer",
-        "farmer:berry_farmer"
+        "farmer:berry_farmer",
+        "nurse:nurse"
     ]
 }
