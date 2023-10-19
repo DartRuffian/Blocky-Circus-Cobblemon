@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "order": 0,
+    "allow_random": true,
+    "origins":
+    [
+        "origins:human",
+        "opossum:opossum"
+    ]
+}

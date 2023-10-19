@@ -1,0 +1,16 @@
+{
+    "name": "Opossum",
+    "description": "The largest marsupial in the Western Hemisphere.\nDue to their eating habits, Opossums are immune to negative effects from food, and their sharp claws allow them to deal more damage.",
+    "icon": "minecraft:gray_wool",
+    "order": 7,
+    "impact": 1,
+    "powers":
+    [
+        "opossum:antivenom",
+        "opossum:fast_swimming",
+        "opossum:increased_jump",
+        "opossum:sharp_claws",
+        "common:size_half_block",
+        "opossum:frost_bites"
+    ]
+}

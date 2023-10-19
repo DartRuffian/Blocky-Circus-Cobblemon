@@ -1,0 +1,142 @@
+{
+    "name": "The Frost Bites",
+    "description": "Your small body can't handle the cold, and will take damage when in cold biomes and not next to a heat source.",
+    "type": "origins:multiple",
+    "badges":
+    [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/item/powder_snow_bucket.png",
+            "text": "Keep out of the cold!"
+        }
+    ],
+    "damage":
+    {
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 1,
+        "source":
+        {
+            "name": "generic",
+            "unblockable": true,
+            "bypasses_armor": false
+        },
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions":
+            [
+                {
+                    "type": "origins:biome",
+                    "condition":
+                    {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "inverted": true,
+                    "conditions":
+                    [
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "mainhand",
+                            "item_condition":
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient":
+                                {
+                                    "tag": "common:heat_items"
+                                }
+                            }
+                        },
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "offhand",
+                            "item_condition":
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient":
+                                {
+                                    "tag": "common:heat_items"
+                                }
+                            }
+                        },
+                        {
+                            "type": "origins:block_in_radius",
+                            "block_condition":
+                            {
+                                "type": "origins:in_tag",
+                                "tag": "common:heat_blocks"
+                            },
+                            "radius": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "shaking":
+    {
+        "type": "origins:shaking",
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions":
+            [
+                {
+                    "type": "origins:biome",
+                    "condition":
+                    {
+                        "type": "origins:temperature",
+                        "comparison": "<=",
+                        "compare_to": 0.05
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "inverted": true,
+                    "conditions":
+                    [
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "mainhand",
+                            "item_condition":
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient":
+                                {
+                                    "tag": "common:heat_items"
+                                }
+                            }
+                        },
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "offhand",
+                            "item_condition":
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient":
+                                {
+                                    "tag": "common:heat_items"
+                                }
+                            }
+                        },
+                        {
+                            "type": "origins:block_in_radius",
+                            "block_condition":
+                            {
+                                "type": "origins:in_tag",
+                                "tag": "common:heat_blocks"
+                            },
+                            "radius": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
