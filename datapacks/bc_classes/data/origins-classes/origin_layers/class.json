@@ -1,11 +1,12 @@
 {
     "replace": true,
     "order": 10,
-    "allow_random": false,
+    "allow_random": true,
     "origins":
     [
         "trainer:trainer",
         "farmer:berry_farmer",
-        "nurse:nurse"
+        "nurse:nurse",
+        "fisherman:fisherman"
     ]
 }
