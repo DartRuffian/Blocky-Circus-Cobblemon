@@ -8,6 +8,7 @@
     [
         "rubberhose:inventory",
         "rubberhose:pie_flight",
-        "rubberhose:bounce"
+        "rubberhose:bounce",
+        "rubberhose:gravity"
     ]
 }
