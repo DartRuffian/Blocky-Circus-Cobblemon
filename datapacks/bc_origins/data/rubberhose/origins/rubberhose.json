@@ -6,13 +6,13 @@
     "impact": 1,
     "powers":
     [
-        "rubberhose:inventory",
-        "rubberhose:pie_flight",
-        "rubberhose:bounce",
-        "rubberhose:gravity",
-        "rubberhose:spinach",
-        "rubberhose:size_change",
         "rubberhose:anvil",
+        "rubberhose:pie_flight",
+        "rubberhose:gravity",
+        "rubberhose:bounce",
+        "rubberhose:size_change",
+        "rubberhose:spinach",
+        "rubberhose:inventory",
         "origins:extra_reach",
 
         "rubberhose:water_slowness",
