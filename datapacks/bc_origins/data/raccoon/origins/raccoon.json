@@ -2,7 +2,7 @@
     "name": "Raccoon",
     "description": "A large mammal known for their poor eating habits and sneakiness. Raccoons are quick and are able to hide while sneaking.",
     "icon": "minecraft:brown_dye",
-    "order": 7,
+    "order": 1,
     "impact": 1,
     "powers":
     [
