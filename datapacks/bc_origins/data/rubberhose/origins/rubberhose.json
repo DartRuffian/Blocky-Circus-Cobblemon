@@ -11,6 +11,7 @@
         "rubberhose:bounce",
         "rubberhose:gravity",
         "rubberhose:spinach",
+        "rubberhose:size_change",
         "origins:extra_reach",
 
         "rubberhose:water_slowness",
