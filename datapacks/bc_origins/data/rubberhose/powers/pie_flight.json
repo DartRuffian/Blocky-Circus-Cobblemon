@@ -1,0 +1,45 @@
+{
+    "name": "What's that Smell?",
+    "description": "After eating a pumpkin pie, you gain the ability to fly through the air for 10 seconds!",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/pumpkin_pie.png",
+            "text": "Mmmmm delicious"
+        }
+    ],
+    "type": "origins:multiple",
+    "swim_fly":
+    {
+        "type": "origins:swimming",
+        "condition":
+        {
+            "type": "origins:resource",
+            "resource": "*:*_timer",
+            "comparison": ">",
+            "compare_to": 1
+        }
+    },
+
+    "food_toggle":
+    {
+        "type": "origins:action_on_item_use",
+        "entity_action":
+        {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_timer"
+        },
+        "item_condition":
+        {
+            "type": "origins:ingredient",
+            "ingredient": {"item": "minecraft:pumpkin_pie"}
+        }
+    },
+
+    "timer":
+    {
+        "type": "origins:cooldown",
+        "cooldown": 200,
+        "hud_render": {"bar_index": 4}
+    }
+}

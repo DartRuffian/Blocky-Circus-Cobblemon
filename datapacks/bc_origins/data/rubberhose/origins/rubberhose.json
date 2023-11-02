@@ -6,6 +6,7 @@
     "impact": 1,
     "powers":
     [
-        "rubberhose:inventory"
+        "rubberhose:inventory",
+        "rubberhose:pie_flight"
     ]
 }
