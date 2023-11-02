@@ -6,6 +6,7 @@
     [
         "origins:human",
         "raccoon:raccoon",
-        "opossum:opossum"
+        "opossum:opossum",
+        "rubberhose:rubberhose"
     ]
 }
