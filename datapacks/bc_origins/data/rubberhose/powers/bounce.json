@@ -14,14 +14,31 @@
         "type": "origins:prevent_death",
         "entity_action":
         {
-            "type":"origins:add_velocity",
-            "y": 0.7,
-            "set": true
+            "type": "origins:and",
+            "actions":
+            [
+                {
+                    "type":"origins:add_velocity",
+                    "y": 0.7,
+                    "set": true
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_cooldown"
+                }
+            ]
         },
         "damage_condition":
         {
             "type": "origins:name",
             "name": "fall"
+        },
+        "condition":
+        {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0
         }
     },
     "cooldown":
