@@ -1,0 +1,41 @@
+{
+    "name": "Flammable",
+    "description": "You take double damage from fire.",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/campfire.png",
+            "text": "Increased damage from fire"
+        }
+    ],
+    "type": "origins:modify_damage_taken",
+    "damage_condition":
+    {
+        "type": "origins:or",
+        "conditions":
+        [
+            {
+                "type": "origins:name",
+                "name": "lava"
+            },
+            {
+                "type": "origins:name",
+                "name": "onFire"
+            },
+            {
+                "type": "origins:name",
+                "name": "inFire"
+            },
+            {
+                "type": "origins:name",
+                "name": "hotFloor"
+            }
+        ]
+    },
+    "modifier":
+    {
+        "name": "Origin modifier",
+        "operation": "multiply_base",
+        "value": 1
+    }
+}

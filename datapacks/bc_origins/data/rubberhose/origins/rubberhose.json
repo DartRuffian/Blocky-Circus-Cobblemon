@@ -12,6 +12,7 @@
         "rubberhose:gravity",
         "origins:extra_reach",
 
-        "rubberhose:water_slowness"
+        "rubberhose:water_slowness",
+        "common:fire_damage"
     ]
 }
