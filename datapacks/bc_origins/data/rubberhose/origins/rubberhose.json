@@ -10,6 +10,8 @@
         "rubberhose:pie_flight",
         "rubberhose:bounce",
         "rubberhose:gravity",
-        "origins:extra_reach"
+        "origins:extra_reach",
+
+        "rubberhose:water_slowness"
     ]
 }

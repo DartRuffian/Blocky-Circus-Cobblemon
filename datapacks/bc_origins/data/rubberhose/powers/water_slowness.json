@@ -1,0 +1,33 @@
+{
+    "name": "Soggy Paper",
+    "description": "You absorb water whenever you're in it, causing you to move very slowly after entering water.",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/water_bucket.png",
+            "text": "Best to avoid water"
+        }
+    ],
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 3,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect":
+    {
+        "effect": "minecraft:slowness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true,
+        "amplifier": 3
+    },
+    "condition":
+    {
+        "type": "origins:in_block",
+        "block_condition":
+        {
+            "type": "origins:block",
+            "block": "minecraft:water"
+        }
+    }
+}
