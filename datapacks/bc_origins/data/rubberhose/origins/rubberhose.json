@@ -1,0 +1,21 @@
+{
+    "name": "Rubberhose",
+    "description": "The embodiment of cartoon physics!",
+    "icon": "minecraft:anvil",
+    "order": 3,
+    "impact": 1,
+    "powers":
+    [
+        "rubberhose:anvil",
+        "rubberhose:pie_flight",
+        "rubberhose:gravity",
+        "rubberhose:bounce",
+        "rubberhose:size_change",
+        "rubberhose:spinach",
+        "rubberhose:inventory",
+        "origins:extra_reach",
+
+        "rubberhose:water_slowness",
+        "common:fire_damage"
+    ]
+}

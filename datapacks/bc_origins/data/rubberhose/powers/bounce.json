@@ -1,0 +1,55 @@
+{
+    "name": "Rubber Shoes",
+    "description": "If falling would kill you, you instead bounce back up and don't die.",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/slime_ball.png",
+            "text": "Good thing I packed my bouncy boots!"
+        }
+    ],
+    "type": "origins:multiple",
+    "prevent_death":
+    {
+        "type": "origins:prevent_death",
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions":
+            [
+                {
+                    "type":"origins:add_velocity",
+                    "y": 0.7,
+                    "set": true
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_cooldown"
+                }
+            ]
+        },
+        "damage_condition":
+        {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "condition":
+        {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
+    "cooldown":
+    {
+        "type": "origins:cooldown",
+        "cooldown": 150,
+        "hud_render":
+        {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 21
+        }
+    }
+}

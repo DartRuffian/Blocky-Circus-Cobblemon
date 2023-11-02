@@ -1,0 +1,47 @@
+{
+    "name": "Don't Look Down",
+    "description": "As long as you don't look down, you can freely sprint in the air.",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/feather.png",
+            "text": "Just like in the cartoons!"
+        }
+    ],
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 5,
+    "tick_rate": 1,
+    "duration_per_stack": 1,
+    "effects":
+    [
+        {
+            "effect": "minecraft:levitation",
+            "amplifier": 255,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "condition":
+    {
+        "type": "origins:and",
+        "conditions":
+        [
+            {
+                "type": "origins:command",
+                "inverted": true,
+                "command": "execute if entity @s[x_rotation=30..90]",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:on_block",
+                "inverted": true
+            },
+            {
+                "type": "origins:sprinting"
+            }
+        ]
+    }
+}

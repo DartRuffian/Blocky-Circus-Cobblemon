@@ -1,0 +1,19 @@
+{
+    "name": "Hammer Space",
+    "description": "A secret pocket that only you can access.\n(Drops on Death)",
+    "badges":
+    [
+        {
+            "type": "origins:keybind",
+            "sprite": "minecraft:textures/item/bundle.png",
+            "text": "Your secret pockets has 9 inventory slots.\nOpen it with %s."
+        }
+    ],
+    "type": "origins:inventory",
+    "title": "Sketchy Pocket",
+    "drop_on_death": true,
+    "key":
+    {
+        "key": "key.origins.primary_active"
+    }
+}

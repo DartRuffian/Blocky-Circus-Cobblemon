@@ -1,0 +1,100 @@
+{
+    "name": "Air Pump",
+    "description": "You can change your size at will by pressing your secondary key!",
+    "badges":
+    [
+        {
+            "type": "origins:keybind",
+            "sprite": "minecraft:textures/item/firework_rocket.png",
+            "text": "You can inflate and deflate yourself at will!\nActivate it with %s."
+        }
+    ],
+    "type": "origins:multiple",
+    "resource":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "start_value": 1,
+        "max_action":
+        {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "operation": "set",
+            "change": 0
+        },
+        "hud_render": {"should_render": false}
+    },
+    "increase":
+    {
+        "type": "origins:active_self",
+        "key":
+        {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action":
+        {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "operation": "add",
+            "change": 1
+        }
+    },
+    "effects":
+    {
+        "type": "origins:active_self",
+        "key":
+        {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action":
+        {
+            "type": "origins:if_else_list",
+            "actions":
+            [
+                {
+                    "condition":
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_resource",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "action":
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scale set extraorigins:modify_size 0.125 @s"
+                    }
+                },
+                {
+                    "condition":
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_resource",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action":
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scale set extraorigins:modify_size 1 @s"
+                    }
+                },
+                {
+                    "condition":
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_resource",
+                        "comparison": "==",
+                        "compare_to": 2
+                    },
+                    "action":
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scale set extraorigins:modify_size 2 @s"
+                    }
+                }
+            ]
+        }
+    }
+}

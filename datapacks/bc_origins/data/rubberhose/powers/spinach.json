@@ -1,0 +1,30 @@
+{
+    "name": "Mighty Spinach",
+    "description": "Eating Spinach (Dried Kelp) gives you a boost to Strength for a few seconds!",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/dried_kelp.png",
+            "text": "Spinach makes you strong!"
+        }
+    ],
+    "type": "origins:modify_food",
+    "item_condition":
+    {
+        "type": "origins:ingredient",
+        "ingredient": {"item": "minecraft:dried_kelp"}
+    },
+    "entity_action":
+    {
+        "type": "origins:apply_effect",
+        "effects":
+        [
+            {
+                "effect": "minecraft:strength",
+                "duration": 80,
+                "amplifier": 0,
+                "is_ambient": true
+            }
+        ]
+    }
+}

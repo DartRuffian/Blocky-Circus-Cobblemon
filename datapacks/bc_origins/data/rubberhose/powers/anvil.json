@@ -1,0 +1,61 @@
+{
+    "name": "Bonkers",
+    "description": "When hitting an enemy, an anvil will fall onto their head after a few seconds, dealing 6 damage.",
+    "badges":
+    [
+        {
+            "sprite": "minecraft:textures/item/iron_ingot.png",
+            "text": "Where'd that come from?"
+        }
+    ],
+    "cooldown": 100,
+    "type": "origins:target_action_on_hit",
+    "entity_action":
+    {
+        "type": "origins:delay",
+        "ticks": 11,
+        "action":
+        {
+            "type": "origins:and",
+            "actions":
+            [
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon minecraft:falling_block ~ ~8 ~ {BlockState:{Name:'minecraft:damaged_anvil'},Motion:[0.0,-5.0,0.0]}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/summon minecraft:arrow ~ ~8 ~ {life:1200,pickup:0,Motion:[0.0,-2.5,0.0],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b}]}",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s run particle minecraft:angry_villager ~ ~1 ~ .4 .4 .4 0 5 normal"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "gamerule doEntityDrops false"
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 5,
+                    "action":
+                    {
+                        "type": "origins:and",
+                        "actions":
+                        [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "execute at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace damaged_anvil"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "gamerule doEntityDrops true"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
