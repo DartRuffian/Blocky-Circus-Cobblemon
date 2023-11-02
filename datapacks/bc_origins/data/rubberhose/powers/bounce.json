@@ -8,16 +8,20 @@
             "text": "Good thing I packed my bouncy boots!"
         }
     ],
-    "type": "origins:prevent_death",
-    "entity_action":
+    "type": "origins:multiple",
+    "prevent_death":
     {
-        "type":"origins:add_velocity",
-        "y": 0.7,
-        "set": true
-    },
-    "damage_condition":
-    {
-        "type": "origins:name",
-        "name": "fall"
+        "type": "origins:prevent_death",
+        "entity_action":
+        {
+            "type":"origins:add_velocity",
+            "y": 0.7,
+            "set": true
+        },
+        "damage_condition":
+        {
+            "type": "origins:name",
+            "name": "fall"
+        }
     }
 }
