@@ -9,6 +9,7 @@
         "rubberhose:inventory",
         "rubberhose:pie_flight",
         "rubberhose:bounce",
-        "rubberhose:gravity"
+        "rubberhose:gravity",
+        "origins:extra_reach"
     ]
 }
