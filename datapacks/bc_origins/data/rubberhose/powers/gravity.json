@@ -36,6 +36,10 @@
                 "compare_to": 1
             },
             {
+                "type": "origins:on_block",
+                "inverted": true
+            },
+            {
                 "type": "origins:sprinting"
             }
         ]
