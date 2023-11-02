@@ -1,0 +1,10 @@
+{
+    "name": "Rubberhose",
+    "description": "The embodiment of cartoon physics!",
+    "icon": "minecraft:anvil",
+    "order": 3,
+    "impact": 1,
+    "powers":
+    [
+    ]
+}
