@@ -7,6 +7,7 @@
     "powers":
     [
         "rubberhose:inventory",
-        "rubberhose:pie_flight"
+        "rubberhose:pie_flight",
+        "rubberhose:bounce"
     ]
 }
