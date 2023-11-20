@@ -1,0 +1,10 @@
+{
+    "name": "Crow",
+    "description": "A small black bird with an eye for treasure. Crows are able to fly and can identify ore.",
+    "icon": "minecraft:feather",
+    "order": 4,
+    "impact": 1,
+    "powers":
+    [
+    ]
+}
