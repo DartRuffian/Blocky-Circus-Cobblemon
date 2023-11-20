@@ -1,0 +1,50 @@
+{
+    "name": "Scavenger",
+    "description": "You are only able to eat raw meat, but gain more hunger and saturation from it.",
+    "type": "origins:multiple",
+    "prevent_eating":
+    {
+        "type": "origins:prevent_item_use",
+        "item_condition":
+        {
+            "type": "origins:and",
+            "conditions":
+            [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {"tag": "common:raw_meat"},
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {"tag": "origins:ignore_diet"},
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "modify_food":
+    {
+        "type": "origins:modify_food",
+        "item_condition":
+        {
+            "type": "origins:ingredient",
+            "ingredient": {"tag": "common:raw_meat"}
+        },
+        "food_modifier":
+        {
+            "name": "Increased food points",
+            "operation": "addition",
+            "value": 3.0
+        },
+        "saturation_modifier":
+        {
+            "name": "Increased saturation points",
+            "operation": "addition",
+            "value": 0.1
+        }
+    }
+}

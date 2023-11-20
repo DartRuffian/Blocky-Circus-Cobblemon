@@ -7,6 +7,7 @@
     "powers":
     [
         "origins:elytra",
-        "origins:launch_into_air"
+        "origins:launch_into_air",
+        "common:eat_raw_meat"
     ]
 }
