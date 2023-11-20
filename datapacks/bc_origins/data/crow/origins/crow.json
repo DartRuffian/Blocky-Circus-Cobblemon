@@ -8,6 +8,9 @@
     [
         "origins:elytra",
         "origins:launch_into_air",
-        "common:eat_raw_meat"
+
+        "common:eat_raw_meat",
+
+        "origins:fragile"
     ]
 }
