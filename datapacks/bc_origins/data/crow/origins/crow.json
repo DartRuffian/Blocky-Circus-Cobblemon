@@ -6,5 +6,7 @@
     "impact": 1,
     "powers":
     [
+        "origins:elytra",
+        "origins:launch_into_air"
     ]
 }
