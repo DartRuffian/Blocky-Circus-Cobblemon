@@ -1,122 +1,28 @@
-<div align="center">
-<div id="user-content-toc">
-  <ul>
-    <summary><h1 style="display: inline-block;">Blocky Circus - Cobblemon</h1></summary>
-  </ul>
-</div>
+<style>
+    a {text-decoration: none;}
+</style>
 
-[![Developer Team Size](https://img.shields.io/github/contributors/DartRuffian/Blocky-Circus-Cobblemon?logo=github&label=Dev%20Team%20Size&labelColor=444D56)](https://github.com/DartRuffian/Blocky-Circus-Cobblemon/graphs/contributors)
+<p align="center">
+    <img src=".github/assets/logo_origins_long.png"></img><br>
+    <a href="https://modrinth.com/datapack/blocky-circus-origins">
+        <img src="https://img.shields.io/modrinth/v/blocky-circus-origins?style=flat-square&label=Version" alt="Version">
+    </a>
+    <a href="https://github.com/DartRuffian/Blocky-Circus-Cobblemon/issues">
+        <img src="https://img.shields.io/github/issues-raw/DartRuffian/Blocky-Circus-Cobblemon.svg?style=flat-square&label=Issues" alt="Issues">
+    </a>
+    <a href="https://modrinth.com/datapack/blocky-circus-origins/version/latest">
+        <img src="https://img.shields.io/modrinth/dt/blocky-circus-origins?style=flat-square&label=Downloads" alt="Downloads">
+    </a>
+    <a href="https://github.com/DartRuffian/Blocky-Circus-Origin/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="License">
+    </a>
+    <a href="https://github.com/DartRuffian/Blocky-Circus-Cobblemon/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/DartRuffian/Blocky-Circus-Cobblemon?logo=github&label=Contributors&style=flat-square" alt="Contributors">
+    </a>
+</p>
 
-</div>
+Blocky Circus Origins is a datapack consisting of custom origins for the Blocky Circus private server. Content within this datapack falls under the [MIT](https://github.com/DartRuffian/Blocky-Circus-Origin/blob/main/LICENSE) license.
 
----
-<br>
-<br>
+These origins are primarily intended for a casual environment. Meaning that while no origin is completely overpowered or underpowered, they may become unbalanced in a different environment.
 
-Blocky Circus - Cobblemon is a collection of custom datapacks for our private Cobblemon server.
-<br>
-<br>
-
----
-
-## Origins
-### Raccoon
-A large mammal known for their poor eating habits and sneakiness. Raccoons are quick and are able to hide while sneaking.
-
-🟢 Pros
-- Snatch
-  - Very low chance to make a mob or player drop their current item when punching them.
-  - 30 second cooldown
-- Hidden in Plain Sight
-  - Crouch while active to become transparent.
-  - Will become visible if not shifting or when below 3 hearts.
-- Trash Eater
-  - Immune to negative effects from poisonious food.
-  - Extra saturation and hunger from bad food.
-- Climbing
-  - Toggled with secondary power key.
-- Fast Digger
-  - Can mine 50% faster.
-- Speedy
-  - Can run faster than normal.
-- Nocturnal
-
-🟡 Neutral
-- Small Size
-  - 0.8 blocks talls
-  - Does not affect movement speed, jump height, etc., only physical/hitbox size.
-
-🔴 Cons
-- Fast Metabolism
-  - Exhausts hunger more quickly.
-- Burrower
-  - Can not sleep in open areas.
-  - Requires a block two blocks above you to sleep.
-- Fragile
-  - Only has seven hearts
-
-### Opossum
-A large mammal known for their poor eating habits and sneakiness. Raccoons are quick and are able to hide while sneaking.
-
-🟢 Pros
-- Trash Eater
-  - Same as Raccoon.
-- Antivenom
-  - Completely immune to poison, hunger, nausea, and intant damage.
-- Fast Swimming
-  - Can swim 75% faster.
-- Increased Jump
-  - Can jump two blocks high.
-- Climbing
-  - Toggled with secondary power key.
-- Sharp Claws
-  - Punching with a fist deals more damage.
-- Nocturnal
-
-🟡 Neutral
-- Small Size
-  - 0.5 blocks tall.
-  - Does not affect movement speed, jump height, etc., only physical/hitbox size.
-
-🔴 Cons
-- Frost Bites
-  - Takes damage and shakes in cold biomes.
-  - Must be holding or near a heat source to not take damage and shake.
-    - Torch, lava, magma block, etc.
-- Fragile
-  - Only has seven hearts.
- 
-## Classes
-Classes are a secondary origin in addition to your main origin. Classes however, are much smaller and basic. The classes included here only include extra starting items.
-
-### Trainer
-Starts with the basic trainer items, essentially the "Nitwit"
-- 8x Pokéballs
-- 2x Great balls
-- 3x Potions
-- 32x Bread
-- Running Shoes
-    - Unbreakable Leather Boots with a 50% movement speed bonus
-
-### Berry Farmer
-- Basic Trainer Items
-- Bundle Containing:
-    - 3x Oran Berries
-    - 3x Leppa Berries
-    - 3x Pecha Berries
-    - 8x Growth Mulch
-
-### Nurse
-- Basic Trainer Items
-- 8x Potion
-    - In addition to the base three 
-- 1x Super Potion
-- 5x Full Heals
-- 3x Heal Balls
-
-
-## Requirements
-- [Origins](https://modrinth.com/mod/origins)
-- [Extra Origins](https://modrinth.com/mod/extra-origins)
-- [Cobblemon](https://modrinth.com/mod/cobblemon)
-  - Only required for the Classes
+For a full list of origins available, check out the [wiki](https://github.com/DartRuffian/Blocky-Circus-Cobblemon/wiki)!
