@@ -2,6 +2,14 @@
     "name": "Flammable",
     "description": "You will be lit on fire for longer.",
     "type": "origins:multiple",
+    "badges":
+    [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/item/lava_bucket.png",
+            "text": "You will be lit on fire for 15 seconds"
+        }
+    ],
     "flammable":
     {
         "type": "origins:self_action_when_hit",
