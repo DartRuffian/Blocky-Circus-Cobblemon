@@ -1,6 +1,6 @@
 {
     "name": "Sticky Hand",
-    "description": "",
+    "description": "The alien creature on your head makes you more maneuverable, at the cost of your health and weakness to fire.",
     "icon": "minecraft:slime_ball",
     "order": 4,
     "impact": 1,
