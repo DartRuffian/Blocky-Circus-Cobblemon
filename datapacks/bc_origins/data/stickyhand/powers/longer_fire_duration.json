@@ -1,0 +1,34 @@
+{
+    "name": "1",
+    "description": "You will be lit on fire for longer.",
+    "type": "origins:multiple",
+    "flammable":
+    {
+        "type": "origins:self_action_when_hit",
+        "cooldown": 5,
+        "entity_action":
+        {
+            "type": "origins:set_on_fire",
+            "duration": 15
+        },
+        "damage_condition":
+        {
+            "type": "origins:or",
+            "conditions":
+            [
+                {
+                    "type": "origins:name",
+                    "name": "lava"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "inFire"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "fireball"
+                }
+            ]
+        }
+    }
+}
