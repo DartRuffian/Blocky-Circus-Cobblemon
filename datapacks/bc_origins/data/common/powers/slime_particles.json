@@ -1,0 +1,7 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:item_slime",
+    "frequency": 10,
+    "offset_y": 0.5,
+    "hidden": true
+}
