@@ -1,0 +1,12 @@
+{
+    "name": "Shiny Eyes",
+    "description": "You are able to see in the dark and when not in water.",
+    "type": "origins:night_vision",
+    "strength": 0.4,
+    "condition":
+    {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water",
+        "inverted": true
+    }
+}
