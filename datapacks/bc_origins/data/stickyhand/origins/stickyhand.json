@@ -1,0 +1,18 @@
+{
+    "name": "Sticky Hand",
+    "description": "",
+    "icon": "minecraft:slime_ball",
+    "order": 4,
+    "impact": 1,
+    "powers":
+    [
+        "opossum:fast_swimming",
+        "opossum:increased_jump",
+        "common:climbing",
+        "origins:cat_vision",
+
+        "common:size_05",
+
+        "origins:fragile"
+    ]
+}
